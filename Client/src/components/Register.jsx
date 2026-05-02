@@ -55,13 +55,13 @@ function Register() {
                 <span className="text-black font-bold pl-3 pt-1">Spend Boat</span>
             </div>
 
-            <div className="w-full flex flex-col gap-4 items-center justify-center ">
+            <div className="w-full flex flex-col gap-4 items-center justify-center max-sm:pt-10 max-sm:pb-5">
                 <h1 className="text-4xl font-bold">Join Our Platform</h1>
                 <p className="">Start Tracking Your Daily Expenses with AI Powered Insight</p>
             </div>
 
             {/* user data field*/}
-            <div className="ml-auto mt-[2%] mr-auto h-full text-left w-[40%] rounded-2xl rounded-tr-2xl pl-[5%] pb-[2%] shadow-2xl bg-white">
+            <div className="ml-auto mt-[2%] mr-auto h-full text-left w-[40%] rounded-2xl rounded-tr-2xl pl-[5%] pb-[2%] shadow-2xl bg-white max-md:w-[70%] max-sm:w-[90%]">
 
                 <form onSubmit={handleSubmit} className="pt-[6%]">
                     {/* name field */}
@@ -138,14 +138,14 @@ function Register() {
                 </form>
                 
                 {/* tawilno guide */}
-                <div className="my-10 p-5 bg-green-50  w-[85%] space-y-4 mr-10 rounded-lg border border-green-600">
+                <div className="my-10 p-5 bg-green-50  w-[85%] space-y-4 mr-10 rounded-lg border border-green-600 max-sm:w-[90%] max-sm:pt-5">
                     <div className="flex gap-4 h-10 items-center">
                         <div className="flex items-center justify-center w-10 h-full rounded-xl bg-green-300">
                             <MessageCircle className="w-7 h-7 text-[#138e74]" />
                         </div>
                         <div className="text-left">
-                            <h1 className="text-lg font-bold">WhatsApp Integration Guide</h1>
-                            <p className="opacity-90 text-sm">Connect your whatsapp for expense tracking</p>
+                            <h1 className="text-lg font-bold max-sm:text-sm">WhatsApp Integration Guide</h1>
+                            <p className="opacity-90 text-sm max-sm:text-xs">Connect your whatsapp for expense tracking</p>
                         </div>
                     </div>
 
