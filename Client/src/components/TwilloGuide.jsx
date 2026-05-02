@@ -5,7 +5,7 @@ function TwilloGuide() {
     const [copy, setCopy] = useState("");
     const suggestions = ["Dinner for ₹45", "Kurkure for ₹5", "Netflix sub ₹499", "Spent ₹25 on lunch at McDonald's", "Groceries ₹120 at Walmart"];
     const phone = "+1 415 523 8886";
-    const message = "Start tracking my Expenses";
+    const message = "join depend-parent";
     const url = `https://wa.me/${phone.replace(/\D/g, "")}?text=${message}`;
 
     const handleCopy = async(text, item) => {

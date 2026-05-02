@@ -12,7 +12,7 @@ function Register() {
     const {register} = useAuth();
 
     const phone = "+1 415 523 8886";
-    const message = "Start tracking my Expenses";
+    const message = "join depend-parent";
 
     const handleChange = (e) => {
         const {value, name} = e.target;

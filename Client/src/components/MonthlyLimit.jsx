@@ -57,7 +57,7 @@ function MonthlyLimit({ totalSpent }) {
                             ref={inputref}
                             disabled={!edit}
                             onChange={handleChange}
-                            value={limit}
+                            value={limit | 0}
                             type="number"
                             placeholder="click on button to edit limit"
                             className="font-bold text-3xl w-[80%] outline-0 rounded-lg p-1 focus:ring-1"
