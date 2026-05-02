@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(cors({ credentials: true, origin: process.env.FRONTEND_URL }));
 
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/spendwise');
+    await mongoose.connect(process.env.DB_URL);
 }
 
 main().then(() => {
