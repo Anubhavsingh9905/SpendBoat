@@ -162,7 +162,7 @@ function History() {
 
                     </div>
                 </div>
-                <div className="pt-6 space-y-4 ">
+                <div className="pt-6 space-y-4 max-md:pt-15">
                     {Activity.filter((acitvity) =>
                         acitvity.date.includes(selectedDate) && acitvity.category.includes(selectedCat)
                     )
