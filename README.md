@@ -1,4 +1,4 @@
-# 🚀 SpendBoat -AI Expense Tracker (WhatsApp + Web)
+# 💸 SpendBoat -AI Expense Tracker (WhatsApp + Web)
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Powered-blueviolet?style=for-the-badge" />
